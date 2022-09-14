@@ -1,0 +1,57 @@
+\include{./includes}
+
+
+\begin{document}
+\pagenumbering{arabic}
+
+% Add your title here
+\title{Searching and Understanding Survey Papers}
+\author{H. M. A. Mohit Chowdhury}
+% use the date command for the affiliations 
+\affiliation{
+\sffamily University of Colorado at Colorado Springs -- \email{hchowdhu@uccs.edu}
+}
+%\maketitle
+{\let\newpage\relax\maketitle}
+\vspace{1pt}
+
+\begin{abstract}
+\small{Survey paper is a good way to kick of research where every individual can find the whole chapters in one page. Writing a survey paper is sometimes critical for intensive workload and own analysis and also choosing the audience is important. There should be a good taxonomic expression.}
+\keyword{Searching, Search, Research, Direction, Criteria, Creative, Critically, Creatively, Learning, Survey, Review}
+\end{abstract}
+
+\section{Research Direction}
+My primary focus on Computer Vision and Bioinformatics where I want to find a way that I can apply Computer Vision with other domnains such as Bioinformatics. Initially I am trying to know the current research and approaches in Computer Vision and survey paper is a good option for knowing all the things in one windows and exploring the fields of interest. With this mindset, I found couple of survey and apparently review papers\cite{yoo_deep_2015,wang_generative_2021,voulodimos_deep_2018,taheri-garavand_meat_2019,patricio_computer_2018,oudah_hand_2020,noauthor_computer_nodate,li_review_2020,huang_multi-view_2019,gowrisankaran_computer_2015,feng_computer_2019,fang_computer_2020,dong_review_2021,colyer_review_2018,capitan-vallvey_recent_2015,buhrmester_analysis_2021,brunetti_computer_2018,akhtar_threat_2018,al-kaff_survey_2018} and set 4 papers\cite{colyer_review_2018,feng_computer_2019,al-kaff_survey_2018,akhtar_threat_2018} for critically and creatively reading for discovering a topic model for my next chapter.
+
+\section{Critically and Creatively Reading}
+While reading Akhtar et al\cite{akhtar_threat_2018}, I found this is one of most cited paper. This paper was published 5 years ago and still emerging the research field with the topic discussed here. Computer vision and its subdomain is one of the prominent topic and attack in this domain is also a concerning objective. This paper is the pioneer of presenting the adversarial attacks in neural network. They presented numerous attack and prevention mechanism in one page capturing a huge amount audience. They also published this survey under IEEE. Though they do not provide much experimental results of available methods, their indication for future is praiseworthy.\\
+
+Reading Al-Kaff et. al. \cite{al-kaff_survey_2018} about unnamed autonomous vehicles algorithm survey is one of the least cited paper in my selection. Though the paper is published 5 years, it is not catches eyes too much among the researchers. I think the topic they stated is not mass people interest and requires costly hardware equipment and experiments. Also, the focus is at some particular usecases e.g. military, entertainment industry. Though there is a good presentation of algorithms, no particular contrast among them which is one of the reason of being not prominent to everyone.\\ 
+
+\textit{Treat of adversarial attacks on deep learning in computer vision: A survey}\cite{akhtar_threat_2018}: Deep learning is appreciably using in multiple domain and became a top choice for computer vision after a successful use of CNN. Deep learning in computer vision experiencing adversarial attack which is first presented by Akhtar et al. and pointed by Szegedy et al. There are couple of attack which is stated in this survey e.g. FGSM, One pixel attack, Houdini etc. In real world, application faces attack in various domain e.g. cell phone camera, road side sign, 3D objects, cyberspace and many more. MetaMind, Amazon and Google experienced above 80\% misclassification due to the attack. Defence against attacks also presented in this paper those are classified in two categories, i. complete defence where achieving the final goal is the main target ii. detection only raises the attention. There are many methods for defending against the attack such as data compression and randomization etc.\\
+
+The taxonomic presentation is well enough. They provided some analysis of the algorithms output, but lack of mathematical analysis. They also provided some important mathematical explanation about some topic which is insightful and also provided some future direction.\\
+
+\textit{Computer vision algorithms and hardware implementations: A survey}\cite{feng_computer_2019}: This paper juxtapose the algorithm and hardware implementation in one place which was not available combined in one chapter. There are many algorithm for computer vision and need a huge hardware requirement due to heavy workload. Image classification which has a numerous algorithm consist of multi-layer, activation function, ReLU and pooling layer counting up to 190 layers and process up to 60 million parameters such as DenseNet has an accuracy of 79.2\%. Detecting object is costly  due to its localization. The first one stage object detection method(YOLO) can reach to 45 FPS. Image segmentation relates the actual orientation in a plane and extensively determined by pixel. For accuracy improvement, CRF can be applied with the output which includes contextual knowledge. Other than CPU, GPU is now widely used in parallel computing for professional and experimental purpose such as Tital V4 started in 2007 after NVIDIA released CUDA. CNN algorithm can be run under parallel process by changing the traditional steps. FPGAs plays when it comes to IoT devices and has friendly re-programmable facilities such as Arial 10 has a 90\% accuracy with over 138 million parameters. There are some application specific hardware which is a mixture of CPUs, GPUs such as TPU designed for neural network. There are lots of scope to be done for optimization on algorithm along with hardware which will unify everything and compact with usecases.\\
+
+The taxonomic presentation is praiseworthy. They also provided contrast among the stated techniques, and hardware efficiency. The explanation is sometime lengthy and sometime unnecessary. There are lack of their own analysis instead stating the predefined results.\\
+
+\textit{A review of the evolution of vision-based motion analysis and the integration of advanced computer vision methods towards developing a markerless system}\cite{colyer_review_2018}: This review paper insights the available methods and limitations of those methods of markerless motion analysis using computer vision methodology and a future direction for further improvement. Camera position, resolution, environment is one of the accuracy deciding factor of these available methods. From the evaluation of manual process to automatic process, while measuring their accuracy, there are lots of room available for improvement as it is one of the booming research topic for its wide usecases. Available datasets has limitations applying with different methods and need some calibration. We expect a model that will work independently regardless of environment and modeling.\\
+
+The taxonomic representation is well enough, though the lack of their own analysis result other than previous experiment result on some specific datasets. They provided a good figure representation for understanding the explanations.\\
+
+\textit{Survey of computer vision algorithms and applications for unmanned aerial vehicles}\cite{al-kaff_survey_2018}: In earlier time, UAV was used only for military purpose which has emerged in our daily life for various purpose such as monitoring, data collection and transportation. Localization, obstacle detection and avoidance and control loop are the three main part of an UAV along with hardware and computer vision based algorithms. In UAV and other autonomous vehicle, GPS is one of the primary component for localization, though it has some drawback if the signal is not received correctly and there are other methods combined with GPS reducing the error such as INS, EKS, Vision based algorithms e.g. VSLAM, VO, SLAM etc. There are various VS algorithm proposed for inner loop controlling such as fuzzy controller and cooperative mapping control and security and surveillance is one of the important factor building up a self controlling UAVs. For refueling, researchers had been proposed techniques such as AAR which has two different segments and a machine learning approach which uses HSV color for improving accuracy and inspection is another feature in recent years.\\
+
+The paper  is well structured and they pointed out every model according to the relevant topic. Though they metioned some predefined comparison of some algorithms, there is no analysing part which is essential. Also the dataset is not mentioned there.
+
+\section{Topic Model}
+In \cite{colyer_review_2018,feng_computer_2019,al-kaff_survey_2018,akhtar_threat_2018}, there are lack of their own analysis. Also, the datasets are not stated their. Analysing the stated models and depicting the mathematical analysis in my own will add value. Apart form that, if the implementation can be available online, it will be helpful for others for future research and investigation. There are shortage of contrast among the algorithms described here\cite{akhtar_threat_2018,colyer_review_2018,}. There is shortage of explanation of most of the topic discussed here\cite{al-kaff_survey_2018}. There is lots of opportunities to improve these sections.
+
+\section{Source}
+This journal source is publicly available \href{https://github.com/shadhinaust/cs-6000-journal-3.git}{here}.
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{main}
+
+\end{document}
